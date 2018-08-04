@@ -1,0 +1,96 @@
+body{
+
+	background-image: url('tttBackground.jpeg.jpeg');
+	background-size: cover;
+
+
+
+}
+
+
+
+
+.mainBox{z-index: -1;
+	position: relative;
+text-align: center;
+	background-color:cyan;
+	top:0;
+	top:150px;
+	width:80%;
+	margin:auto;
+	height:380px;
+	
+	background-color:#EFFCFE;
+	filter:opacity(80%);
+padding-bottom: 19px;
+border-radius:20px;
+border:3px solid tomato;}
+
+
+
+.gamebox
+{
+	position:absolute;
+	z-index:1;
+	width:500px;
+	height:275px;
+	background-color: transparent;
+
+
+left:450px;
+top:210px;
+text-align: center;
+
+
+}
+
+
+
+	.box{color:white;
+		font-size:30px;
+		
+		
+		width:12%;
+		
+		margin-right:10px;
+        background-color: #4F4F4F;
+		border:2px solid tomato;
+		height: 20%;
+		
+		border-radius:10px;
+		filter:opacity(60%);
+	}
+
+#player1{
+	float:left;
+	margin-left:100px;
+	
+}
+	
+
+#player2{
+	float:right;
+	margin-right:100px;
+}
+
+.btn:hover{
+	background-color: green;
+}
+
+
+
+span{display: block;
+	position: relative;
+	color:green;
+	font-weight: bold;
+	font-size:100px	
+}
+
+#p1{
+	float:left;
+}
+
+#p1{
+	float:right;
+}
+
